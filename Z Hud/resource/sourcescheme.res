@@ -326,7 +326,6 @@ Scheme
 		}
     }
 
-	}
 	CustomFontFiles
 	{
 		"9"

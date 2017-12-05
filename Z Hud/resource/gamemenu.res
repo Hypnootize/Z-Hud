@@ -6,28 +6,6 @@
 		"command" "engine toggle cl_hud_minmode"
 		"OnlyInGame" "1"
 	}
-	"CasualButton"
-	{
-		"label" "Casual" 
-		"command" "play_casual"
-		"subimage" "glyph_multiplayer"
-		"OnlyAtMenu" "1"
-	}
-	
-	"CompetitiveButton"
-	{
-		"label" "Competitive" 
-		"command" "play_competitive"
-		"subimage" "glyph_practice"
-		"OnlyAtMenu" "1"
-	}
-	"PlayPVEButton"
-	{
-		"label" "Play MVM" 
-		"command" "play_mvm"
-		"subimage" "glyph_coop"
-		"OnlyAtMenu" "1"
-	}
 	"ServerBrowserButton"
 	{
 		"label" "Browse Servers" 
@@ -90,13 +68,6 @@
 
 	// These buttons are only shown while in-game
 	// and also are positioned by the .res file
-	"ResumeGameButton"
-	{
-		"label"			"Resume"
-		"command"		"ResumeGame"
-		"OnlyInGame"	"1"
-		"subimage" "icon_resume"
-	}
 	"CallVoteButton"
 	{
 		"label"			"Call Vote"
@@ -112,13 +83,5 @@
 		"OnlyInGame"	"1"
 		"subimage" "glyph_muted"
 		"tooltip" "#MMenu_MutePlayers"
-	}
-	"RequestCoachButton"
-	{
-		"label"			""
-		"command"		"engine cl_coach_find_coach"
-		"OnlyInGame"	"1"
-		"subimage" "icon_whistle"
-		"tooltip" "#MMenu_RequestCoach"
 	}
 }
