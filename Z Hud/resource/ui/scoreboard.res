@@ -102,9 +102,9 @@
         "fieldName"     "mapname"
         "font"          "ComfortaaRegular12"
         "labelText"     "%mapname%"
-        "textAlignment" "west"
-        "xpos"          "3"  	//22 or c182
-        "ypos"          "28" 	//28
+        "textAlignment" "east"
+        "xpos"          "c140"
+        "ypos"          "r13"
         "zpos"          "4"
         "wide"          "120"
         "tall"          "11"
@@ -1524,13 +1524,10 @@
 			"ControlName"	"ImagePanel"
 			"fieldName"		"StatsBG"
 			"xpos"			"r368"
-			"xpos_minmode"		"r233"
 			"ypos"			"9999"
 			"zpos"			"-3"
 			"wide"			"135"
-			"wide_minmode"		"233"
 			"tall"			"170"
-			"tall_minmode"		"86"
 			"fillcolor"		"ZHUD_White"
 			"autoResize"	"0"
 			"pinCorner"		"0"
@@ -1558,7 +1555,6 @@
 			"autoResize"	"0"
 			"pinCorner"		"0"
 			"visible"		"0"
-			"visible_minmode"	"0"
 			"enabled"		"1"
 
 			if_mvm

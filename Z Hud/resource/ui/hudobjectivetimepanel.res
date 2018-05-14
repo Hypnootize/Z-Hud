@@ -20,8 +20,7 @@
 
 		if_match
 		{
-			"visible"			"0"
-			"wide"				"0"
+			"xpos"			"9999"
 		}
 	}
 	"TimePanelProgressBar"
@@ -32,11 +31,8 @@
 		"ypos"				"16"
 		"zpos"				"4"	
 		"wide"				"20"
-		"wide_lodef"		"25"
 		"tall"				"20"
-		"tall_lodef"		"25"	
 		"visible"			"0"
-		"visible_minmode"	"0"
 		"enabled"			"1"
 		"scaleImage"			"1"
 		"image"				"../hud/objectives_timepanel_progressbar"
@@ -47,8 +43,7 @@
 		
 		if_match
 		{
-			"visible"			"0"
-			"wide"				"0"
+			"xpos"			"9999"
 		}
 	}
 	"WaitingForPlayersLabel"
@@ -71,8 +66,7 @@
 		
 		if_match
 		{
-			"visible"			"0"
-			"wide"				"0"
+			"xpos"			"9999"
 		}
 	}			
 	"WaitingForPlayersBG"
@@ -81,12 +75,9 @@
 		"fieldName"		"WaitingForPlayersBG"
 		"xpos"			"9999"	[$WIN32]
 		"ypos"			"9999"
-		"ypos_hidef"	"-100"	//off-screen
-		"ypos_lodef"	"-100"	//off-screen
 		"zpos"			"1"
 		"wide"			"78"
 		"tall"			"20"
-		"tall_minmode"	"0"
 		"visible"		"0"
 		"enabled"		"1"
 		"image"			"../hud/objectives_timepanel_suddendeath"	
@@ -94,8 +85,7 @@
 		
 		if_match
 		{
-			"visible"			"0"
-			"wide"				"0"
+			"xpos"			"9999"
 		}
 	}
 	"OvertimeLabel"
@@ -118,8 +108,7 @@
 		
 		if_match
 		{
-			"visible"			"0"
-			"wide"				"0"
+			"xpos"			"9999"
 		}
 	}			
 	"OvertimeBG"
@@ -128,12 +117,9 @@
 		"fieldName"		"OvertimeBG"
 		"xpos"			"9999"	[$WIN32]
 		"ypos"			"9999"
-		"ypos_hidef"	"-100"	//off-screen
-		"ypos_lodef"	"-100"	//off-screen
 		"zpos"			"1"
 		"wide"			"78"
 		"tall"			"20"
-		"tall_minmode"	"0"
 		"visible"		"0"
 		"enabled"		"1"
 		"image"			"../hud/objectives_timepanel_suddendeath"	
@@ -141,8 +127,7 @@
 		
 		if_match
 		{
-			"visible"			"0"
-			"wide"				"0"
+			"xpos"			"9999"
 		}
 	}
 	"SuddenDeathLabel"
@@ -151,8 +136,6 @@
 		"fieldName"		"SuddenDeathLabel"
 		"xpos"			"25"
 		"ypos"			"33"
-		"ypos_hidef"	"41"
-		"ypos_lodef"	"41"
 		"zpos"			"5"
 		"wide"			"50"
 		"tall"			"19"
@@ -167,8 +150,7 @@
 		
 		if_match
 		{
-			"visible"			"0"
-			"wide"				"0"
+			"xpos"			"9999"
 		}
 	}			
 	"SuddenDeathBG"
@@ -177,12 +159,9 @@
 		"fieldName"		"SuddenDeathBG"
 		"xpos"			"9999"	[$WIN32]
 		"ypos"			"9999"
-		"ypos_hidef"	"-100"	//off-screen
-		"ypos_lodef"	"-100"	//off-screen
 		"zpos"			"1"
 		"wide"			"78"
 		"tall"			"20"
-		"tall_minmode"	"0"
 		"visible"		"0"
 		"enabled"		"1"
 		"image"			"../hud/objectives_timepanel_suddendeath"	
@@ -190,8 +169,7 @@
 		
 		if_match
 		{
-			"visible"			"0"
-			"wide"				"0"
+			"xpos"			"9999"
 		}
 	}	
 	"SetupLabel"
@@ -214,8 +192,7 @@
 		
 		if_match
 		{
-			"visible"			"0"
-			"wide"				"0"
+			"xpos"			"9999"
 		}
 	}	
 	"SetupBG"
@@ -224,12 +201,9 @@
 		"fieldName"		"SetupBG"
 		"xpos"			"9999"	[$WIN32]
 		"ypos"			"9999"
-		"ypos_hidef"	"-100"	//off-screen
-		"ypos_lodef"	"-100"	//off-screen
 		"zpos"			"1"
 		"wide"			"78"
 		"tall"			"20"
-		"tall_minmode"	"0"
 		"visible"		"0"
 		"enabled"		"1"
 		"image"			"../hud/objectives_timepanel_suddendeath"	
@@ -237,8 +211,7 @@
 		
 		if_match
 		{
-			"visible"			"0"
-			"wide"				"0"
+			"xpos"			"9999"
 		}
 	}
 	"ServerTimeLimitLabel"
@@ -257,16 +230,19 @@
 		"wrap"			"0"
 		"fgcolor"		"ZHUD_White"
 		"font"			"BebasNeue16"
+		
+		if_match
+		{
+			"ypos"		"20"
+			"font"		"BebasNeue12"
+		}
 	}	
 	"ServerTimeLimitLabelBG"
 	{
 		"ControlName"		"CTFImagePanel"
 		"fieldName"		"ServerTimeLimitLabelBG"
 		"xpos"			"9999"	[$WIN32]
-		"xpos"			"9999"	[$X360]
 		"ypos"			"9999"
-		"ypos_hidef"	"-100"	//off-screen
-		"ypos_lodef"	"-100"	//off-screen
 		"zpos"			"1"
 		"wide"			"78"
 		"tall"			"20"
@@ -275,5 +251,10 @@
 		"enabled"		"1"
 		"image"			"../hud/objectives_timepanel_suddendeath"	
 		"scaleImage"		"1"	
+		
+		if_match
+		{
+			"xpos"			"9999"
+		}
 	}	
 }
