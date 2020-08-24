@@ -123,3 +123,17 @@ event HudSpyDisguiseChanged
 
 	RunEvent HudSpyDisguiseHide	0.7
 }
+
+//============================================
+
+event CompetitiveGame_LowerChatWindow
+{
+}
+event CompetitiveGame_RestoreChatWindow
+{
+}
+event HudTournament_MoveChatWindow
+{
+}
+
+//===========================================
