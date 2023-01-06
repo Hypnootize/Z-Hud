@@ -54,27 +54,6 @@
             "visible" "1"
         }
 	}
-    "MvMTitle"
-    {
-        "ControlName"   "CExLabel"
-        "fieldName"     "MvMTitle"
-        "font"          "BebasNeue18"
-        "labelText"     "MANN VS MACHINE"
-        "textAlignment" "west"
-        "xpos"          "c-292" 
-        "ypos"          "c70" 
-        "zpos"          "15"
-        "wide"          "287"
-        "tall"          "17"
-        "visible"       "0"
-        "enabled"       "1"
-        "fgcolor"       "ZHUD_White"
-
-        if_mvm
-        {
-            "visible" "1"
-        }
-    }  
     "ServerLabel"
     {
         "ControlName"   "CExLabel"
@@ -167,13 +146,9 @@
 		"enabled"		"1"
 
 		if_mvm
-		{
-            "fillcolor"		"ZHUD_Shadow"
-			"xpos"			"c-295"
-			"ypos"			"c87"
-			"wide"			"590"
-			"tall"			"169"
-		}
+        {
+            "visible" 	"0"
+        }
 	}
     "InfoBG"
 	{
@@ -191,52 +166,9 @@
 		"enabled"		"1"
 
 		if_mvm
-		{
-            "xpos"			"c-295"
-            "ypos"          "r10"
-            "wide"			"590"
-            "visible" "1"
-		}
-	}
-	"MvMBGTopLine"
-	{
-		"ControlName"	"ImagePanel"
-		"fieldName"		"MvMBGTopLine"
-		"xpos"			"c-295"
-		"ypos"			"c85"
-		"zpos"			"14"
-		"wide"			"410"
-		"tall"			"2"
-		"fillcolor"		"Red"
-		"autoResize"	"0"
-		"pinCorner"		"0"
-		"visible"		"0"
-		"enabled"		"1"
-
-		if_mvm
-		{
-			"visible"			"1"
-		}
-	}
-    "MvMBGTop"
-	{
-		"ControlName"	"ImagePanel"
-		"fieldName"		"MvMBGTop"
-		"xpos"			"c-295"
-		"ypos"			"c70"
-		"zpos"			"9"
-		"wide"			"590"
-		"tall"			"17"
-		"fillcolor"		"Red"
-		"autoResize"	"0"
-		"pinCorner"		"0"
-		"visible"		"0"
-		"enabled"		"1"
-
-		if_mvm
-		{
-			"visible"			"1"
-		}
+        {
+            "visible" 	"0"
+        }
 	}
 	"BlueLabelBG"
 	{
@@ -252,9 +184,9 @@
 		"fillcolor"		"0 171 255 255"
 
 		if_mvm
-		{
-			"visible"		"0"
-		}
+        {
+            "visible" 	"0"
+        }
 	}
 	"BlueTeamLabel"
 	{
@@ -275,9 +207,9 @@
 		"enabled"		"1"
 
 		if_mvm
-		{
-			"visible"		"0"
-		}
+        {
+            "visible" 	"0"
+        }
 	}							
 	"BlueTeamScore"
 	{
@@ -1596,8 +1528,8 @@
 	{
 		"ControlName"		"CTFHudMannVsMachineScoreboard"
 		"fieldName"			"MvMScoreboard"
-		"xpos"				"0"
-		"ypos"				"0"
+		"xpos"				"c-300"
+		"ypos"				"-8"
 		"zpos"				"10"
 		"wide"				"f0"
 		"tall"				"480"
